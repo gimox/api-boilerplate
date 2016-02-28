@@ -1,0 +1,18 @@
+{
+  "GLOBAL": {
+    "baseUrl": "/api/author"
+  },
+  "/": {
+    "GET": {
+      "route": "findAll"
+    },
+    "POST": {
+      "route": "insert"
+    }
+  },
+  "/:_id": {
+    "GET": {
+      "route": "findById"
+    }
+  }
+}

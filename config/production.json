@@ -1,0 +1,21 @@
+{
+  "base": {
+    "port": 8080,
+    "portSSL": 3000,
+    "https": false,
+    "http": true,
+    "httpsCrt":"./sslcert/server.crt",
+    "httpsKey":"./sslcert/server.key"
+  },
+  "routes": {
+    "routesPath": "./routes",
+    "controllersPath": "./api/controllers",
+    "policyPath": "./api/policy",
+    "modelsPath": "./api/models",
+    "cors": true
+  },
+  "mongoose" : {
+    "connection":"mongodb://localhost:27017/shout",
+    "models":"./api/models"
+  }
+}

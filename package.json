@@ -1,0 +1,35 @@
+{
+  "name": "api-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple and fast api boilerplate for nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "NODE_ENV=development node server",
+    "docs": "node_modules/.bin/jsdoc --configure ./jsdoc.json ./api/* ./README.md --verbose"
+  },
+  "keywords": [
+    "api",
+    "boilerpalte",
+    "nodejs",
+    "json-routing"
+  ],
+  "author": "Giorgio Modoni <modogio@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "config": "^1.19.0",
+    "debug": "^2.2.0",
+    "express": "^4.13.4",
+    "json-routing": "^0.1.4",
+    "mongoose": "^4.4.5",
+    "mongoose-express-autoinit": "0.0.4",
+    "morgan": "^1.7.0",
+    "node-startinfo": "0.0.6",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.4.0",
+    "minami": "^1.1.1"
+  }
+}
