@@ -16,3 +16,7 @@ All app configuration is stored in `.json` file inside `./config/**` directory.
 
 `npm start` start server  
 `npm docs`  create docs with jsdoc (javadoc syntax) 
+
+## Configure Routes
+
+Refere to docs: [https://github.com/gimox/json-routing](https://github.com/gimox/json-routing)
